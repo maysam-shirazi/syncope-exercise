@@ -210,8 +210,8 @@ under the License.
           <version>${syncope.version}</version>
         </dependency>
       <dependency>
-        <groupId>com.tirasa.ext.reminder</groupId>
-        <artifactId>syncope-ext-reminder-rest-cxf</artifactId>
+        <groupId>com.tirasa.ext.message</groupId>
+        <artifactId>syncope-ext-message-rest-cxf</artifactId>
         <version>${project.version}</version>
       </dependency>
 

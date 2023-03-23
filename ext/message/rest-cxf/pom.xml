@@ -5,13 +5,13 @@
 
   <parent>
     <groupId>com.tirasa.ext</groupId>
-    <artifactId>syncope-ext-reminder</artifactId>
+    <artifactId>syncope-ext-message</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <name>Apache Syncope: new REST endpoint - Ext: Reminder REST CXF</name>
-  <groupId>com.tirasa.ext.reminder</groupId>
-  <artifactId>syncope-ext-reminder-rest-cxf</artifactId>
+  <name>Apache Syncope: new REST endpoint - Ext: Message REST CXF</name>
+  <groupId>com.tirasa.ext.message</groupId>
+  <artifactId>syncope-ext-message-rest-cxf</artifactId>
   <packaging>jar</packaging>
   
   <properties>
@@ -25,13 +25,13 @@
     </dependency>
 
     <dependency>
-      <groupId>com.tirasa.ext.reminder</groupId>
-      <artifactId>syncope-ext-reminder-rest-api</artifactId>
+      <groupId>com.tirasa.ext.message</groupId>
+      <artifactId>syncope-ext-message-rest-api</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.tirasa.ext.reminder</groupId>
-      <artifactId>syncope-ext-reminder-rest-api</artifactId>
+      <groupId>com.tirasa.ext.message</groupId>
+      <artifactId>syncope-ext-message-rest-api</artifactId>
       <version>${project.version}</version>
       <classifier>javadoc</classifier>
     </dependency>
