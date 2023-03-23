@@ -209,6 +209,11 @@ under the License.
           <artifactId>syncope-ext-scimv2-scim-rest-cxf</artifactId>
           <version>${syncope.version}</version>
         </dependency>
+      <dependency>
+        <groupId>com.tirasa.ext.reminder</groupId>
+        <artifactId>syncope-ext-reminder-rest-cxf</artifactId>
+        <version>${project.version}</version>
+      </dependency>
 
         <dependency>
           <groupId>org.apache.syncope.ext</groupId>
